@@ -11,7 +11,9 @@
 #import "ZDDThemeConfiguration.h"
 
 @interface TEMPBaseTabViewController ()
-
+<
+UITabBarControllerDelegate
+>
 @end
 
 @implementation TEMPBaseTabViewController
@@ -36,7 +38,20 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    self.tabBarController.delegate = self;
+}
+
+- (BOOL)tabBarController:(UITabBarController *)tabBarController shouldSelectViewController:(UIViewController *)viewController {
+    NSLog(@"%@", viewController);
+    //可以做一些登录判断逻辑
+    if ([tabBarController.viewControllers objectAtIndex:0] == viewController) {
+        BOOL signin = YES;
+        if (!signin) {
+            //present 登录页面
+            return NO;
+        }
+    }
+    return YES;
 }
 
 @end
