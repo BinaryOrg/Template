@@ -6,13 +6,13 @@
 //  Copyright © 2019 binary. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "TEMPAppDelegate.h"
 
-@interface AppDelegate ()
+@interface TEMPAppDelegate ()
 
 @end
 
-@implementation AppDelegate
+@implementation TEMPAppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
