@@ -43,17 +43,14 @@
 
 #pragma mark - Private class methods
 
-+ (UIColor *)colorWithRed:(NSUInteger)red
++ (UIColor *)zdd_colorWithRed:(NSUInteger)red
                     green:(NSUInteger)green
                      blue:(NSUInteger)blue {
     
-    return [UIColor colorWithRed:(float)(red/255.f)
-                           green:(float)(green/255.f)
-                            blue:(float)(blue/255.f)
-                           alpha:1.f];
+    return [self zdd_colorWithRed:red green:green blue:blue alpha:1.f];
 }
 
-+ (UIColor *)ztw_colorWithRed:(NSUInteger)red
++ (UIColor *)zdd_colorWithRed:(NSUInteger)red
                        green:(NSUInteger)green
                         blue:(NSUInteger)blue
                        alpha:(CGFloat)alpha {

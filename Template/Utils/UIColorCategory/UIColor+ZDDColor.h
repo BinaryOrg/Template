@@ -18,9 +18,14 @@ NS_ASSUME_NONNULL_BEGIN
 //business custon color
 
 - (BOOL)isDarkColor;
-+ (UIColor *)colorWithRed:(NSUInteger)red
-                    green:(NSUInteger)green
-                     blue:(NSUInteger)blue;
++ (UIColor *)zdd_colorWithRed:(NSUInteger)red
+                        green:(NSUInteger)green
+                         blue:(NSUInteger)blue;
+
++ (UIColor *)zdd_colorWithRed:(NSUInteger)red
+                        green:(NSUInteger)green
+                         blue:(NSUInteger)blue
+                        alpha:(CGFloat)alpha;
 @end
 
 NS_ASSUME_NONNULL_END
