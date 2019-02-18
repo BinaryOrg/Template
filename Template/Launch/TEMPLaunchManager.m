@@ -29,7 +29,7 @@
 - (void)launchInWindow:(UIWindow *)window {
     ZDDThemeConfiguration *theme = [ZDDThemeConfiguration defaultConfiguration];
 
-//    只需要在这里修改如下5个主题颜色即可:
+//    只需要在这里修改如下5个主题颜色即可，注意颜色搭配和理性:
 //    theme.naviTitleColor =
 //    theme.naviTintColor =
 //    theme.themeColor =
