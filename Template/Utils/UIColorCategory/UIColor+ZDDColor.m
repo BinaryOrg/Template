@@ -17,31 +17,28 @@
 }
 
 + (UIColor *)zdd_grayColor {
-    return [self colorWithRed:140 green:140 blue:140];
+    return [self zdd_colorWithRed:140 green:140 blue:140];
 }
 
 + (UIColor *)zdd_redColor {
-    return [self colorWithRed:231 green:76 blue:60];
+    return [self zdd_colorWithRed:231 green:76 blue:60];
 }
 
 + (UIColor *)zdd_yellowColor {
-    return [self colorWithRed:241 green:196 blue:15];
+    return [self zdd_colorWithRed:241 green:196 blue:15];
 }
 
 + (UIColor *)zdd_greenColor {
-    return [self colorWithRed:46 green:204 blue:113];
+    return [self zdd_colorWithRed:46 green:204 blue:113];
 }
 
 + (UIColor *)zdd_blueColor {
-    return [self colorWithRed:52 green:152 blue:219];
+    return [self zdd_colorWithRed:52 green:152 blue:219];
 }
 
 + (UIColor *)zdd_purpleColor {
-    return [self colorWithRed:68 green:87 blue:169];
+    return [self zdd_colorWithRed:68 green:87 blue:169];
 }
-
-
-#pragma mark - Private class methods
 
 + (UIColor *)zdd_colorWithRed:(NSUInteger)red
                     green:(NSUInteger)green
