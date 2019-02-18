@@ -11,6 +11,19 @@
 		4AF49DBC221A8A29004F45EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AF49DBB221A8A29004F45EB /* Assets.xcassets */; };
 		4AF49DBF221A8A29004F45EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AF49DBD221A8A29004F45EB /* LaunchScreen.storyboard */; };
 		4AF49DC2221A8A29004F45EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF49DC1221A8A29004F45EB /* main.m */; };
+		4AF49DCD221A8EE2004F45EB /* TEMPLaunchManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF49DCC221A8EE2004F45EB /* TEMPLaunchManager.m */; };
+		4AF49DD5221A8FE3004F45EB /* TEMPKeyConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF49DD4221A8FE3004F45EB /* TEMPKeyConfiguration.m */; };
+		4AF49DD8221A90DE004F45EB /* TEMPSDKManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF49DD7221A90DE004F45EB /* TEMPSDKManager.m */; };
+		4AF49DDD221A922D004F45EB /* ZDDNotificationName.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF49DDC221A922D004F45EB /* ZDDNotificationName.m */; };
+		4AF49DE6221A92B8004F45EB /* NSDictionary+HYBUnicodeReadable.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF49DDF221A92B7004F45EB /* NSDictionary+HYBUnicodeReadable.m */; };
+		4AF49DE7221A92B8004F45EB /* NSArray+HYBUnicodeReadable.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF49DE2221A92B8004F45EB /* NSArray+HYBUnicodeReadable.m */; };
+		4AF49DE8221A92B8004F45EB /* NSSet+HYBUnicodeReadable.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF49DE4221A92B8004F45EB /* NSSet+HYBUnicodeReadable.m */; };
+		4AF49DE9221A92B8004F45EB /* Foundation+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF49DE5221A92B8004F45EB /* Foundation+Log.m */; };
+		4AF49DED221A92F1004F45EB /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF49DEC221A92F1004F45EB /* UINavigationController+FDFullscreenPopGesture.m */; };
+		4AF49DF1221A9307004F45EB /* UIColor+ZDDColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF49DF0221A9307004F45EB /* UIColor+ZDDColor.m */; };
+		4AF49DF8221A937A004F45EB /* TEMPAppDelegate+PushService.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF49DF3221A9379004F45EB /* TEMPAppDelegate+PushService.m */; };
+		4AF49DF9221A937A004F45EB /* TEMPAppDelegate+BackgroundTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF49DF4221A9379004F45EB /* TEMPAppDelegate+BackgroundTask.m */; };
+		4AF49DFA221A937A004F45EB /* TEMPAppDelegate+OpenURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF49DF5221A937A004F45EB /* TEMPAppDelegate+OpenURL.m */; };
 		9A592D327C8F6F7C4FABCD74 /* libPods-Template.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 91BE538803D042BD4B754A12 /* libPods-Template.a */; };
 /* End PBXBuildFile section */
 
@@ -22,6 +35,32 @@
 		4AF49DBE221A8A29004F45EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4AF49DC0221A8A29004F45EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4AF49DC1221A8A29004F45EB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4AF49DCB221A8EE2004F45EB /* TEMPLaunchManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TEMPLaunchManager.h; sourceTree = "<group>"; };
+		4AF49DCC221A8EE2004F45EB /* TEMPLaunchManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TEMPLaunchManager.m; sourceTree = "<group>"; };
+		4AF49DD1221A8F89004F45EB /* TEMPMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TEMPMacro.h; sourceTree = "<group>"; };
+		4AF49DD3221A8FE3004F45EB /* TEMPKeyConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TEMPKeyConfiguration.h; sourceTree = "<group>"; };
+		4AF49DD4221A8FE3004F45EB /* TEMPKeyConfiguration.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TEMPKeyConfiguration.m; sourceTree = "<group>"; };
+		4AF49DD6221A90DE004F45EB /* TEMPSDKManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TEMPSDKManager.h; sourceTree = "<group>"; };
+		4AF49DD7221A90DE004F45EB /* TEMPSDKManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TEMPSDKManager.m; sourceTree = "<group>"; };
+		4AF49DDB221A922D004F45EB /* ZDDNotificationName.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZDDNotificationName.h; sourceTree = "<group>"; };
+		4AF49DDC221A922D004F45EB /* ZDDNotificationName.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZDDNotificationName.m; sourceTree = "<group>"; };
+		4AF49DDF221A92B7004F45EB /* NSDictionary+HYBUnicodeReadable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+HYBUnicodeReadable.m"; sourceTree = "<group>"; };
+		4AF49DE0221A92B7004F45EB /* NSArray+HYBUnicodeReadable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+HYBUnicodeReadable.h"; sourceTree = "<group>"; };
+		4AF49DE1221A92B7004F45EB /* NSDictionary+HYBUnicodeReadable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+HYBUnicodeReadable.h"; sourceTree = "<group>"; };
+		4AF49DE2221A92B8004F45EB /* NSArray+HYBUnicodeReadable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+HYBUnicodeReadable.m"; sourceTree = "<group>"; };
+		4AF49DE3221A92B8004F45EB /* NSSet+HYBUnicodeReadable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSSet+HYBUnicodeReadable.h"; sourceTree = "<group>"; };
+		4AF49DE4221A92B8004F45EB /* NSSet+HYBUnicodeReadable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSSet+HYBUnicodeReadable.m"; sourceTree = "<group>"; };
+		4AF49DE5221A92B8004F45EB /* Foundation+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Foundation+Log.m"; sourceTree = "<group>"; };
+		4AF49DEB221A92F1004F45EB /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
+		4AF49DEC221A92F1004F45EB /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
+		4AF49DEF221A9306004F45EB /* UIColor+ZDDColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ZDDColor.h"; sourceTree = "<group>"; };
+		4AF49DF0221A9307004F45EB /* UIColor+ZDDColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ZDDColor.m"; sourceTree = "<group>"; };
+		4AF49DF2221A9378004F45EB /* TEMPAppDelegate+OpenURL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TEMPAppDelegate+OpenURL.h"; sourceTree = "<group>"; };
+		4AF49DF3221A9379004F45EB /* TEMPAppDelegate+PushService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TEMPAppDelegate+PushService.m"; sourceTree = "<group>"; };
+		4AF49DF4221A9379004F45EB /* TEMPAppDelegate+BackgroundTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TEMPAppDelegate+BackgroundTask.m"; sourceTree = "<group>"; };
+		4AF49DF5221A937A004F45EB /* TEMPAppDelegate+OpenURL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TEMPAppDelegate+OpenURL.m"; sourceTree = "<group>"; };
+		4AF49DF6221A937A004F45EB /* TEMPAppDelegate+BackgroundTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TEMPAppDelegate+BackgroundTask.h"; sourceTree = "<group>"; };
+		4AF49DF7221A937A004F45EB /* TEMPAppDelegate+PushService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TEMPAppDelegate+PushService.h"; sourceTree = "<group>"; };
 		7C615778C541EDDE5C5ED866 /* Pods-Template.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Template.release.xcconfig"; path = "Pods/Target Support Files/Pods-Template/Pods-Template.release.xcconfig"; sourceTree = "<group>"; };
 		915664136FB0004CAE80CFAA /* Pods-Template.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Template.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Template/Pods-Template.debug.xcconfig"; sourceTree = "<group>"; };
 		91BE538803D042BD4B754A12 /* libPods-Template.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Template.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -79,12 +118,118 @@
 			children = (
 				4AF49DB2221A8A18004F45EB /* TEMPAppDelegate.h */,
 				4AF49DB3221A8A18004F45EB /* TEMPAppDelegate.m */,
+				4AF49DCA221A8EC1004F45EB /* Launch */,
+				4AF49DC9221A8EBC004F45EB /* SDK */,
+				4AF49DC8221A8E12004F45EB /* AppDelegateCategory */,
+				4AF49DCE221A8F3F004F45EB /* Utils */,
 				4AF49DBB221A8A29004F45EB /* Assets.xcassets */,
 				4AF49DBD221A8A29004F45EB /* LaunchScreen.storyboard */,
 				4AF49DC0221A8A29004F45EB /* Info.plist */,
 				4AF49DC1221A8A29004F45EB /* main.m */,
 			);
 			path = Template;
+			sourceTree = "<group>";
+		};
+		4AF49DC8221A8E12004F45EB /* AppDelegateCategory */ = {
+			isa = PBXGroup;
+			children = (
+				4AF49DF6221A937A004F45EB /* TEMPAppDelegate+BackgroundTask.h */,
+				4AF49DF4221A9379004F45EB /* TEMPAppDelegate+BackgroundTask.m */,
+				4AF49DF2221A9378004F45EB /* TEMPAppDelegate+OpenURL.h */,
+				4AF49DF5221A937A004F45EB /* TEMPAppDelegate+OpenURL.m */,
+				4AF49DF7221A937A004F45EB /* TEMPAppDelegate+PushService.h */,
+				4AF49DF3221A9379004F45EB /* TEMPAppDelegate+PushService.m */,
+			);
+			path = AppDelegateCategory;
+			sourceTree = "<group>";
+		};
+		4AF49DC9221A8EBC004F45EB /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+				4AF49DD6221A90DE004F45EB /* TEMPSDKManager.h */,
+				4AF49DD7221A90DE004F45EB /* TEMPSDKManager.m */,
+			);
+			path = SDK;
+			sourceTree = "<group>";
+		};
+		4AF49DCA221A8EC1004F45EB /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				4AF49DCB221A8EE2004F45EB /* TEMPLaunchManager.h */,
+				4AF49DCC221A8EE2004F45EB /* TEMPLaunchManager.m */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		4AF49DCE221A8F3F004F45EB /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				4AF49DEE221A92F7004F45EB /* UIColorCategory */,
+				4AF49DEA221A92C2004F45EB /* FullGes */,
+				4AF49DDE221A9296004F45EB /* UnicodeLog */,
+				4AF49DDA221A91F5004F45EB /* Notification */,
+				4AF49DD2221A8FCA004F45EB /* KeyConfiguration */,
+				4AF49DCF221A8F70004F45EB /* Macro */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		4AF49DCF221A8F70004F45EB /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				4AF49DD1221A8F89004F45EB /* TEMPMacro.h */,
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		4AF49DD2221A8FCA004F45EB /* KeyConfiguration */ = {
+			isa = PBXGroup;
+			children = (
+				4AF49DD3221A8FE3004F45EB /* TEMPKeyConfiguration.h */,
+				4AF49DD4221A8FE3004F45EB /* TEMPKeyConfiguration.m */,
+			);
+			path = KeyConfiguration;
+			sourceTree = "<group>";
+		};
+		4AF49DDA221A91F5004F45EB /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				4AF49DDB221A922D004F45EB /* ZDDNotificationName.h */,
+				4AF49DDC221A922D004F45EB /* ZDDNotificationName.m */,
+			);
+			path = Notification;
+			sourceTree = "<group>";
+		};
+		4AF49DDE221A9296004F45EB /* UnicodeLog */ = {
+			isa = PBXGroup;
+			children = (
+				4AF49DE5221A92B8004F45EB /* Foundation+Log.m */,
+				4AF49DE0221A92B7004F45EB /* NSArray+HYBUnicodeReadable.h */,
+				4AF49DE2221A92B8004F45EB /* NSArray+HYBUnicodeReadable.m */,
+				4AF49DE1221A92B7004F45EB /* NSDictionary+HYBUnicodeReadable.h */,
+				4AF49DDF221A92B7004F45EB /* NSDictionary+HYBUnicodeReadable.m */,
+				4AF49DE3221A92B8004F45EB /* NSSet+HYBUnicodeReadable.h */,
+				4AF49DE4221A92B8004F45EB /* NSSet+HYBUnicodeReadable.m */,
+			);
+			path = UnicodeLog;
+			sourceTree = "<group>";
+		};
+		4AF49DEA221A92C2004F45EB /* FullGes */ = {
+			isa = PBXGroup;
+			children = (
+				4AF49DEB221A92F1004F45EB /* UINavigationController+FDFullscreenPopGesture.h */,
+				4AF49DEC221A92F1004F45EB /* UINavigationController+FDFullscreenPopGesture.m */,
+			);
+			path = FullGes;
+			sourceTree = "<group>";
+		};
+		4AF49DEE221A92F7004F45EB /* UIColorCategory */ = {
+			isa = PBXGroup;
+			children = (
+				4AF49DEF221A9306004F45EB /* UIColor+ZDDColor.h */,
+				4AF49DF0221A9307004F45EB /* UIColor+ZDDColor.m */,
+			);
+			path = UIColorCategory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -211,8 +356,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AF49DE8221A92B8004F45EB /* NSSet+HYBUnicodeReadable.m in Sources */,
+				4AF49DF8221A937A004F45EB /* TEMPAppDelegate+PushService.m in Sources */,
+				4AF49DE9221A92B8004F45EB /* Foundation+Log.m in Sources */,
+				4AF49DD5221A8FE3004F45EB /* TEMPKeyConfiguration.m in Sources */,
+				4AF49DED221A92F1004F45EB /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
+				4AF49DFA221A937A004F45EB /* TEMPAppDelegate+OpenURL.m in Sources */,
+				4AF49DD8221A90DE004F45EB /* TEMPSDKManager.m in Sources */,
+				4AF49DF1221A9307004F45EB /* UIColor+ZDDColor.m in Sources */,
+				4AF49DDD221A922D004F45EB /* ZDDNotificationName.m in Sources */,
+				4AF49DCD221A8EE2004F45EB /* TEMPLaunchManager.m in Sources */,
+				4AF49DF9221A937A004F45EB /* TEMPAppDelegate+BackgroundTask.m in Sources */,
+				4AF49DE7221A92B8004F45EB /* NSArray+HYBUnicodeReadable.m in Sources */,
 				4AF49DC2221A8A29004F45EB /* main.m in Sources */,
 				4AF49DB4221A8A18004F45EB /* TEMPAppDelegate.m in Sources */,
+				4AF49DE6221A92B8004F45EB /* NSDictionary+HYBUnicodeReadable.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
