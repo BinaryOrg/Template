@@ -24,6 +24,13 @@
 		4AF49DF8221A937A004F45EB /* TEMPAppDelegate+PushService.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF49DF3221A9379004F45EB /* TEMPAppDelegate+PushService.m */; };
 		4AF49DF9221A937A004F45EB /* TEMPAppDelegate+BackgroundTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF49DF4221A9379004F45EB /* TEMPAppDelegate+BackgroundTask.m */; };
 		4AF49DFA221A937A004F45EB /* TEMPAppDelegate+OpenURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF49DF5221A937A004F45EB /* TEMPAppDelegate+OpenURL.m */; };
+		4AF49DFF221A9944004F45EB /* TEMPBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF49DFE221A9944004F45EB /* TEMPBaseViewController.m */; };
+		4AF49E02221A9977004F45EB /* TEMPBaseTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF49E01221A9977004F45EB /* TEMPBaseTabViewController.m */; };
+		4AF49E0A221A9AD3004F45EB /* ZDDOneTabController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF49E09221A9AD3004F45EB /* ZDDOneTabController.m */; };
+		4AF49E0D221A9AFD004F45EB /* ZDDTwoTabController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF49E0C221A9AFD004F45EB /* ZDDTwoTabController.m */; };
+		4AF49E10221A9B0E004F45EB /* ZDDThreeTabController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF49E0F221A9B0E004F45EB /* ZDDThreeTabController.m */; };
+		4AF49E13221A9B1A004F45EB /* ZDDFourTabController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF49E12221A9B1A004F45EB /* ZDDFourTabController.m */; };
+		4AF49E17221A9E58004F45EB /* ZDDThemeConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF49E16221A9E58004F45EB /* ZDDThemeConfiguration.m */; };
 		9A592D327C8F6F7C4FABCD74 /* libPods-Template.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 91BE538803D042BD4B754A12 /* libPods-Template.a */; };
 /* End PBXBuildFile section */
 
@@ -61,6 +68,20 @@
 		4AF49DF5221A937A004F45EB /* TEMPAppDelegate+OpenURL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TEMPAppDelegate+OpenURL.m"; sourceTree = "<group>"; };
 		4AF49DF6221A937A004F45EB /* TEMPAppDelegate+BackgroundTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TEMPAppDelegate+BackgroundTask.h"; sourceTree = "<group>"; };
 		4AF49DF7221A937A004F45EB /* TEMPAppDelegate+PushService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TEMPAppDelegate+PushService.h"; sourceTree = "<group>"; };
+		4AF49DFD221A9944004F45EB /* TEMPBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TEMPBaseViewController.h; sourceTree = "<group>"; };
+		4AF49DFE221A9944004F45EB /* TEMPBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TEMPBaseViewController.m; sourceTree = "<group>"; };
+		4AF49E00221A9977004F45EB /* TEMPBaseTabViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TEMPBaseTabViewController.h; sourceTree = "<group>"; };
+		4AF49E01221A9977004F45EB /* TEMPBaseTabViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TEMPBaseTabViewController.m; sourceTree = "<group>"; };
+		4AF49E08221A9AD3004F45EB /* ZDDOneTabController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZDDOneTabController.h; sourceTree = "<group>"; };
+		4AF49E09221A9AD3004F45EB /* ZDDOneTabController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZDDOneTabController.m; sourceTree = "<group>"; };
+		4AF49E0B221A9AFD004F45EB /* ZDDTwoTabController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZDDTwoTabController.h; sourceTree = "<group>"; };
+		4AF49E0C221A9AFD004F45EB /* ZDDTwoTabController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZDDTwoTabController.m; sourceTree = "<group>"; };
+		4AF49E0E221A9B0E004F45EB /* ZDDThreeTabController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZDDThreeTabController.h; sourceTree = "<group>"; };
+		4AF49E0F221A9B0E004F45EB /* ZDDThreeTabController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZDDThreeTabController.m; sourceTree = "<group>"; };
+		4AF49E11221A9B1A004F45EB /* ZDDFourTabController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZDDFourTabController.h; sourceTree = "<group>"; };
+		4AF49E12221A9B1A004F45EB /* ZDDFourTabController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZDDFourTabController.m; sourceTree = "<group>"; };
+		4AF49E15221A9E58004F45EB /* ZDDThemeConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZDDThemeConfiguration.h; sourceTree = "<group>"; };
+		4AF49E16221A9E58004F45EB /* ZDDThemeConfiguration.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZDDThemeConfiguration.m; sourceTree = "<group>"; };
 		7C615778C541EDDE5C5ED866 /* Pods-Template.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Template.release.xcconfig"; path = "Pods/Target Support Files/Pods-Template/Pods-Template.release.xcconfig"; sourceTree = "<group>"; };
 		915664136FB0004CAE80CFAA /* Pods-Template.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Template.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Template/Pods-Template.debug.xcconfig"; sourceTree = "<group>"; };
 		91BE538803D042BD4B754A12 /* libPods-Template.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Template.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -121,6 +142,8 @@
 				4AF49DCA221A8EC1004F45EB /* Launch */,
 				4AF49DC9221A8EBC004F45EB /* SDK */,
 				4AF49DC8221A8E12004F45EB /* AppDelegateCategory */,
+				4AF49DFB221A95B2004F45EB /* BaseController */,
+				4AF49E03221A9A6D004F45EB /* Controller */,
 				4AF49DCE221A8F3F004F45EB /* Utils */,
 				4AF49DBB221A8A29004F45EB /* Assets.xcassets */,
 				4AF49DBD221A8A29004F45EB /* LaunchScreen.storyboard */,
@@ -164,6 +187,7 @@
 		4AF49DCE221A8F3F004F45EB /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				4AF49E14221A9E31004F45EB /* ThemeColorConfiguration */,
 				4AF49DEE221A92F7004F45EB /* UIColorCategory */,
 				4AF49DEA221A92C2004F45EB /* FullGes */,
 				4AF49DDE221A9296004F45EB /* UnicodeLog */,
@@ -230,6 +254,81 @@
 				4AF49DF0221A9307004F45EB /* UIColor+ZDDColor.m */,
 			);
 			path = UIColorCategory;
+			sourceTree = "<group>";
+		};
+		4AF49DFB221A95B2004F45EB /* BaseController */ = {
+			isa = PBXGroup;
+			children = (
+				4AF49DFD221A9944004F45EB /* TEMPBaseViewController.h */,
+				4AF49DFE221A9944004F45EB /* TEMPBaseViewController.m */,
+				4AF49DFC221A95C9004F45EB /* BaseTabController */,
+			);
+			path = BaseController;
+			sourceTree = "<group>";
+		};
+		4AF49DFC221A95C9004F45EB /* BaseTabController */ = {
+			isa = PBXGroup;
+			children = (
+				4AF49E00221A9977004F45EB /* TEMPBaseTabViewController.h */,
+				4AF49E01221A9977004F45EB /* TEMPBaseTabViewController.m */,
+			);
+			path = BaseTabController;
+			sourceTree = "<group>";
+		};
+		4AF49E03221A9A6D004F45EB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4AF49E07221A9AA8004F45EB /* ZDDFourTabController */,
+				4AF49E06221A9AA0004F45EB /* ZDDThreeTabController */,
+				4AF49E05221A9A8B004F45EB /* ZDDTwoTabController */,
+				4AF49E04221A9A7A004F45EB /* ZDDOneTabController */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4AF49E04221A9A7A004F45EB /* ZDDOneTabController */ = {
+			isa = PBXGroup;
+			children = (
+				4AF49E08221A9AD3004F45EB /* ZDDOneTabController.h */,
+				4AF49E09221A9AD3004F45EB /* ZDDOneTabController.m */,
+			);
+			path = ZDDOneTabController;
+			sourceTree = "<group>";
+		};
+		4AF49E05221A9A8B004F45EB /* ZDDTwoTabController */ = {
+			isa = PBXGroup;
+			children = (
+				4AF49E0B221A9AFD004F45EB /* ZDDTwoTabController.h */,
+				4AF49E0C221A9AFD004F45EB /* ZDDTwoTabController.m */,
+			);
+			path = ZDDTwoTabController;
+			sourceTree = "<group>";
+		};
+		4AF49E06221A9AA0004F45EB /* ZDDThreeTabController */ = {
+			isa = PBXGroup;
+			children = (
+				4AF49E0E221A9B0E004F45EB /* ZDDThreeTabController.h */,
+				4AF49E0F221A9B0E004F45EB /* ZDDThreeTabController.m */,
+			);
+			path = ZDDThreeTabController;
+			sourceTree = "<group>";
+		};
+		4AF49E07221A9AA8004F45EB /* ZDDFourTabController */ = {
+			isa = PBXGroup;
+			children = (
+				4AF49E11221A9B1A004F45EB /* ZDDFourTabController.h */,
+				4AF49E12221A9B1A004F45EB /* ZDDFourTabController.m */,
+			);
+			path = ZDDFourTabController;
+			sourceTree = "<group>";
+		};
+		4AF49E14221A9E31004F45EB /* ThemeColorConfiguration */ = {
+			isa = PBXGroup;
+			children = (
+				4AF49E15221A9E58004F45EB /* ZDDThemeConfiguration.h */,
+				4AF49E16221A9E58004F45EB /* ZDDThemeConfiguration.m */,
+			);
+			path = ThemeColorConfiguration;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -359,14 +458,21 @@
 				4AF49DE8221A92B8004F45EB /* NSSet+HYBUnicodeReadable.m in Sources */,
 				4AF49DF8221A937A004F45EB /* TEMPAppDelegate+PushService.m in Sources */,
 				4AF49DE9221A92B8004F45EB /* Foundation+Log.m in Sources */,
+				4AF49DFF221A9944004F45EB /* TEMPBaseViewController.m in Sources */,
 				4AF49DD5221A8FE3004F45EB /* TEMPKeyConfiguration.m in Sources */,
+				4AF49E17221A9E58004F45EB /* ZDDThemeConfiguration.m in Sources */,
+				4AF49E0A221A9AD3004F45EB /* ZDDOneTabController.m in Sources */,
 				4AF49DED221A92F1004F45EB /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
 				4AF49DFA221A937A004F45EB /* TEMPAppDelegate+OpenURL.m in Sources */,
 				4AF49DD8221A90DE004F45EB /* TEMPSDKManager.m in Sources */,
+				4AF49E02221A9977004F45EB /* TEMPBaseTabViewController.m in Sources */,
 				4AF49DF1221A9307004F45EB /* UIColor+ZDDColor.m in Sources */,
+				4AF49E13221A9B1A004F45EB /* ZDDFourTabController.m in Sources */,
 				4AF49DDD221A922D004F45EB /* ZDDNotificationName.m in Sources */,
 				4AF49DCD221A8EE2004F45EB /* TEMPLaunchManager.m in Sources */,
 				4AF49DF9221A937A004F45EB /* TEMPAppDelegate+BackgroundTask.m in Sources */,
+				4AF49E0D221A9AFD004F45EB /* ZDDTwoTabController.m in Sources */,
+				4AF49E10221A9B0E004F45EB /* ZDDThreeTabController.m in Sources */,
 				4AF49DE7221A92B8004F45EB /* NSArray+HYBUnicodeReadable.m in Sources */,
 				4AF49DC2221A8A29004F45EB /* main.m in Sources */,
 				4AF49DB4221A8A18004F45EB /* TEMPAppDelegate.m in Sources */,

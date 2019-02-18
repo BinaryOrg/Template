@@ -22,4 +22,5 @@ target 'Template' do
   pod 'CocoaLumberjack', '~> 3.0.0'
   pod 'SSZipArchive'
   pod 'Masonry'
+  pod 'MFExtractColor'
 end
