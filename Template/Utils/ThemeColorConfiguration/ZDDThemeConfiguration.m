@@ -77,4 +77,12 @@
     return _naviTitleColor;
 }
 
+- (UIColor *)addButtonColor {
+    if (!_addButtonColor) {
+        BOOL isDark = [[self themeColor] isDarkColor];
+        _addButtonColor = isDark ? [UIColor whiteColor] : [UIColor zdd_grayColor];
+    }
+    return _addButtonColor;
+}
+
 @end

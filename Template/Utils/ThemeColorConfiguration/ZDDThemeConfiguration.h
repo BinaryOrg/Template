@@ -22,6 +22,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) UIColor *selectTabColor;
 @property (nonatomic, strong) UIColor *naviTintColor;
 @property (nonatomic, strong) UIColor *naviTitleColor;
+@property (nonatomic, strong) UIColor *addButtonColor;
 @end
 
 NS_ASSUME_NONNULL_END
