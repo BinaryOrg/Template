@@ -87,13 +87,12 @@ UITabBarControllerDelegate
 }
 
 - (BOOL)tabBarController:(UITabBarController *)tabBarController shouldSelectViewController:(UIViewController *)viewController {
-    //可以做一些登录判断逻辑
-    if ([tabBarController.viewControllers objectAtIndex:3] == viewController) {
-//        BOOL signin = YES;
-//        if (!signin) {
-//            //present 登录页面
-//            return NO;
-//        }
+    //点击发布
+    if ([tabBarController.viewControllers objectAtIndex:2] == viewController) {
+        if (self.hasCenterButton) {
+            [self addButtonClick];
+            return NO;
+        }
         return NO;
     }
     return YES;
