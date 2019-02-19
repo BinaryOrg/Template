@@ -43,12 +43,14 @@ UITabBarControllerDelegate
         UIButton *addButton = [UIButton buttonWithType:UIButtonTypeCustom];
         [self.tabBar addSubview:addButton];
         addButton.frame = CGRectMake((SCREENWIDTH - 45)/2.0, 5, 45, HEIGHT(self.tabBar) - 20);
-        [addButton setImage:[UIImage imageNamed:@"tab_add"] forState:UIControlStateNormal];
+        UIImage *image = [[UIImage imageNamed:@"tab_add"] imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate];
+        [addButton setImage:image forState:UIControlStateNormal];
         [addButton addTarget:self action:@selector(addButtonClick) forControlEvents:UIControlEventTouchUpInside];
         addButton.adjustsImageWhenDisabled = NO;
         addButton.adjustsImageWhenHighlighted = NO;
         ZDDThemeConfiguration *theme = [ZDDThemeConfiguration defaultConfiguration];
         addButton.backgroundColor = theme.selectTabColor;
+        addButton.tintColor = theme.addButtonColor;
     }
 }
 

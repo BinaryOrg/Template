@@ -31,7 +31,7 @@
 //    theme.themeColor =
 //    theme.normalTabColor =
 //    theme.selectTabColor =
-    
+    theme.addButtonColor = [UIColor whiteColor];
     //NavigationBar 和 TabBar 偏好设置
     NSDictionary *dict = [NSDictionary dictionaryWithObject:theme.naviTitleColor forKey:NSForegroundColorAttributeName];
     [UINavigationBar appearance].titleTextAttributes = dict;
